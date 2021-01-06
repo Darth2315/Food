@@ -17,7 +17,7 @@ import {openModal} from './modules/modal';
 document.addEventListener('DOMContentLoaded', () => {
 
     // Вызываем открытие модального окна через 50 секунд
-    const modalTimerId = setTimeout(() => openModal('.modal', modalTimerId), 50000);
+    const modalTimerId = setTimeout(() => openModal('.modal', modalTimerId), 3000000);
 
     function showModalByScroll() {
         if (window.pageYOffset + document.documentElement.clientHeight >= document.documentElement.scrollHeight) {
@@ -41,5 +41,5 @@ document.addEventListener('DOMContentLoaded', () => {
         field: '.offer__slider-inner'
     });
     tabs('.tabheader__item', '.tabcontent', '.tabheader__items', 'tabheader__item_active');
-    timer('.timer', '2020-07-30');
+    timer('.timer', '2021-12-31');
 });
