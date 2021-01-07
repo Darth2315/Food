@@ -53,6 +53,9 @@
     .offer .bgc_y {
         width: 100%;
     }
+    .offer__advantages {
+        width: 300px;
+    }
     .menu__item {
         width: 300px;
     }
